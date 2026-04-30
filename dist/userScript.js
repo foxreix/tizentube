@@ -10482,7 +10482,7 @@
                 signalAction: {
                     signal: "POPUP_BACK"
                 }
-            }])]), "tt-update-modal", !1)) : (console.info("You are using the latest version of TizenTube."), e && Ea("TizenTube is up to date", `You are using the latest version (${t}) of TizenTube Cobalt.`, null))
+            }])]), "tt-update-modal", !1)) : (console.info("You are using the latest version of TizenTube."), e && Ea("YouTube is up to date", `You are using the latest version (${t}) of YouTube Premium.`, null))
         }).catch(e => {
             console.error("Error fetching the latest release:", e), Ea("YouTube update check", "version nueva instalada.", null)
         })
